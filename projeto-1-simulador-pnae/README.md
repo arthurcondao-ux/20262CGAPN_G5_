@@ -28,3 +28,12 @@ O que os dados representam: Esses dados representam o valor de repasse do PNAE p
 Estrutura: "Bandeja do Repasse": Valores pago por aluno, por dia, por modalidade 
             "Tabela de Dados": Fator de variação (%), Matrículas (quantidade de alunos), Valor por Capita ($)
 
+## Participação do Grupo
+O que aprendemos com este projeto: 
+Papel de cada integrante
+Arthur: Ajudar a upload no GitHub
+Kauã: Ajudar a upload no Github, completar excel PNAE
+Roger: Ajudar a upload no Github, completar excel PNAE
+Tomás: Ajudar a upload no Github, completar excel PNAE
+Tiago: Auxiliar a coletar dados PNAE
+João Pedro: Auxiliar a coleta de dados PNAE

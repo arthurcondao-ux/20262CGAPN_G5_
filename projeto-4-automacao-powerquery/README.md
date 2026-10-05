@@ -1,8 +1,8 @@
-# Projeto 4 – Painel do Censo Escolar 2024 (2ª entrega do Projeto 2)
+# Projeto 4 – Painel do Censo Escolar 2024 (Projeto 2 revisado)
 
-Objetivo: Este projeto reúne, em um painel dinâmico no Excel, dados do Censo Escolar 2024 (INEP) sobre as escolas da rede estadual de Osasco (SP). O painel compara a distribuição de matrículas por raça/cor e por modalidade de ensino e a infraestrutura de esgoto das escolas. O intuito é permitir que essas diferenças sejam vistas de forma clara e interativa, por meio de tabelas dinâmicas, gráfico dinâmico e segmentação.
+Objetivo: Este projeto monta, no Excel, um painel dinâmico com os dados do Censo Escolar 2024 (INEP) das 467 escolas de Osasco (SP). Por meio de tabelas dinâmicas, gráficos e segmentações, o painel mostra o perfil das escolas por dependência administrativa, porte e situação de funcionamento, além da infraestrutura de esgoto e coleta de lixo e das matrículas por sexo. O intuito é permitir que as diferenças entre esses grupos sejam vistas de forma clara e interativa.
 
-Como usar: Abrir o arquivo `Projeto_2-_2nda_entrega_github.xlsx` no Excel. As abas de dados são a Microdados (base tratada) e a Sheet2; as abas Dependencia, Localizacao, LocDiferenciada e Situacao são tabelas de apoio, usadas para traduzir os códigos em texto. As tabelas dinâmicas e o gráfico dinâmico estão ligados à base, e as segmentações (filtros clicáveis) permitem filtrar o painel por município e por outras categorias. Basta clicar nos botões da segmentação para o painel se atualizar.
+Como usar: Abrir o arquivo `Projeto_2-_2nda_entrega_github.xlsx` no Excel. A aba Controle reúne as duas tabelas dinâmicas e as três segmentações (filtros clicáveis): Dependência, Situação de funcionamento e Porte da escola. Ao clicar nos botões da segmentação, as tabelas se atualizam. A aba Microdados é a base tratada, e as abas Dependencia, Localizacao, LocDiferenciada e Situacao são tabelas de apoio que traduzem códigos em texto.
 
 Prints do resultado:
 
@@ -13,7 +13,7 @@ Imagem 1: Gráficos do painel
 
 Ferramenta utilizada: Claude
 
-Para que foi usada: Para buscar informações e sugestões de formas adequadas de ilustrar os gráficos do painel.
+Para que foi usada: Para buscar informações e pensar em formas diferentes e adequadas de ilustrar os gráficos do painel.
 
 Exemplo de prompt utilizado: "Como fazer os dados de distribuição de raça por modalidade escolar ser mais visualmente agradável"
 
@@ -25,21 +25,23 @@ Fonte oficial: Censo Escolar 2024 (INEP)
 
 Link oficial: https://censobasico.inep.gov.br/censobasico_2024/
 
-O que os dados representam: O Censo Escolar é a principal pesquisa estatística sobre a educação básica no Brasil, realizada pelo INEP com informações declaradas pelas escolas. Os dados descrevem cada escola: onde fica, quem a administra, sua infraestrutura (água, energia, esgoto e lixo) e o número de matrículas por etapa de ensino, sexo, raça/cor e faixa etária.
+O que os dados representam: O Censo Escolar é a principal pesquisa estatística sobre a educação básica no Brasil, realizada pelo INEP com informações declaradas pelas escolas. Cada linha da base é uma escola de Osasco e descreve onde ela fica, quem a administra, se está ativa, sua infraestrutura (água, energia, esgoto e lixo) e suas matrículas por etapa de ensino, sexo, raça/cor e faixa etária.
 
-Estrutura: Cada linha da base é uma escola. As principais colunas usadas são:
-- NO_MUNICIPIO e SG_UF: município e estado onde a escola fica.
-- NO_ENTIDADE: nome da escola.
-- TP_DEPENDENCIA: código da dependência administrativa (federal, estadual, municipal ou privada), traduzido na coluna Dependencia.DEPENDENCIA.
-- TP_LOCALIZACAO: código de localização (urbana ou rural), traduzido na coluna Localizacao.LOCALIZACAO.
-- TAM_ESCOLA: porte da escola (micro, pequena, média, grande ou muito grande).
-- IN_ESGOTO_*: indicadores do tipo de esgotamento sanitário (rede pública, fossa séptica, fossa comum etc.).
-- QT_MAT_INF, QT_MAT_FUND, QT_MAT_MED, QT_MAT_EJA, QT_MAT_PROF e QT_MAT_ESP: matrículas por modalidade (infantil, fundamental, médio, EJA, profissional e especial).
-- QT_MAT_BAS_BRANCA, _PRETA, _PARDA, _AMARELA e _INDIGENA: matrículas da educação básica por raça/cor.
+Estrutura: A base (aba Microdados) tem 467 linhas e 69 colunas. As principais são:
+- NO_MUNICIPIO, SG_UF, NO_ENTIDADE e CO_ENTIDADE: município, estado, nome e código da escola.
+- TP_DEPENDENCIA: código da dependência administrativa, traduzido para Federal, Estadual, Municipal ou Privada na coluna Dependencia.DEPENDENCIA.
+- TP_LOCALIZACAO e TP_LOCALIZACAO_DIFERENCIADA: localização (urbana ou rural) e localização diferenciada (assentamento, terra indígena, comunidade quilombola etc.), traduzidas pelas abas de apoio.
+- TP_SITUACAO_FUNCIONAMENTO: código de funcionamento, traduzido para Ativa ou Inativa em Situacao.SITUACAO.
+- TAM_ESCOLA: porte da escola (Micro, Pequena, Média, Grande, Muito Grande ou Sem Dados).
+- Agua, Energia, Esgoto e Lixo: colunas calculadas a partir dos indicadores IN_AGUA_*, IN_ENERGIA_*, IN_ESGOTO_* e IN_LIXO_* (por exemplo, "Rede Publica" ou "Coleta").
+- QT_MAT_BAS, QT_MAT_INF, QT_MAT_FUND, QT_MAT_MED, QT_MAT_PROF, QT_MAT_EJA e QT_MAT_ESP: matrículas totais e por modalidade de ensino.
+- QT_MAT_BAS_FEM e QT_MAT_BAS_MASC: matrículas por sexo.
+- QT_MAT_BAS_BRANCA, _PRETA, _PARDA, _AMARELA e _INDIGENA: matrículas por raça/cor.
+- QT_MAT_BAS_0_3 até QT_MAT_BAS_18_MAIS: matrículas por faixa etária.
 
 ## Participação do Grupo
 
-O que aprendemos com este projeto: Ao trabalhar diretamente com os dados nacionais do Censo Escolar, aprendemos a manipular e tratar uma base grande, a interpretar os resultados e a escolher a melhor forma de comunicá-los usando o Excel como ferramenta.
+O que aprendemos com este projeto: Ao trabalhar diretamente com os dados nacionais do Censo Escolar, aprendemos a tratar uma base grande, a traduzir códigos em categorias com tabelas de apoio, a montar tabelas dinâmicas com segmentações e a escolher a melhor forma de comunicar os resultados usando o Excel como ferramenta.
 
 Papel de cada integrante:
 - Arthur: Responsável pelo upload do projeto no GitHub e pelos gráficos no Dash.

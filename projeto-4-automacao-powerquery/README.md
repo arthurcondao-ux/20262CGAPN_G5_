@@ -16,7 +16,10 @@ Como usar: Abrir o arquivo `Projeto_2-_2nda_entrega_github.xlsx` no Excel e ir p
 Prints do resultado:
 
 Imagem 1: Painel na aba Controle (segmentações, tabelas dinâmicas e gráfico dinâmico)
-[APAGAR ESTA LINHA E ARRASTAR AQUI O PRINT DA ABA CONTROLE]
+<img width="1133" height="515" alt="Screenshot 2026-10-07 at 08 35 14" src="https://github.com/user-attachments/assets/ea6ad3e7-880d-4928-b959-11d269da3143" />
+<img width="896" height="534" alt="Screenshot 2026-10-07 at 08 35 01" src="https://github.com/user-attachments/assets/32e57843-e512-4e0f-95cf-f5abc6c699cc" />
+<img width="1146" height="498" alt="Screenshot 2026-10-07 at 08 34 46" src="https://github.com/user-attachments/assets/1a0afbb0-4e5c-41b2-937a-3580b3f844dd" />
+
 
 ## Fórmulas e Tratamento dos Dados (Power Query)
 

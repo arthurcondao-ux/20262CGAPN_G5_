@@ -1,39 +1,34 @@
-# Simulador PNAE Grupo 5
-Objetivo: Este arquivo utiliza uma base de dados do Bairro Quiataúna no município paulistano Osasco. O presente repositório visa simular o repasse do PNAE, Programa Nacional de Alimentação Escolar, baseado nas informações de uma escola específica - ajustando por tamanho de alunato, modalidade de matrícula entre outros.
-Como usar: Utilizamos o arquivo de excel anexado para formular o programa em html
+# Dashboard da Educação – Censo Escolar 2024 (Excel)
 
+## Objetivo
+Este projeto apresenta um Dashboard da Educação feito em Excel, com base nos dados do Censo Escolar 2024. O arquivo reúne informações sobre a distribuição de raça, a quantidade e a coleta de esgoto nas escolas e as modalidades escolares. O objetivo é visualizar essas distribuições de forma dinâmica, destacando as diferenças entre elas.
 
-Prints do resultado: 
-
-Imagem 1: Ajustando por número de aluno
-<img width="951" height="562" alt="Screenshot 2026-09-08 at 19 24 57" src="https://github.com/user-attachments/assets/1c6b20e8-2484-46c4-bcc0-12a83b33f161" />
-
-Imagem 2: Ajustando por Fator de Ajuste (%) 
-
-<img width="874" height="509" alt="Screenshot 2026-09-08 at 19 26 27" src="https://github.com/user-attachments/assets/93ee05cf-fffe-4d42-b444-740bbec27168" />
-
+## Como usar
+Abra o arquivo "Projeto Excel".
 
 ## Uso de Inteligência Artificial
-
 Ferramenta utilizada: Claude
-Para que foi usada: ex: Gerar o artefato de HTML à partir das informações da excel
-Exemplo de prompt utilizado: Ajude a criar um modelo de repasse ajustável à partir das informações de preços. Além disso, informações de especificações nossas como cores e designs. 
-O que foi ajustado manualmente: Modelo de fatores de risco e outros ajustes.
+Para que foi usada: coletar informações e pensar em formas diferentes e adequadas de ilustrar os gráficos.
+Exemplo de prompt utilizado: "Como fazer os dados de distribuição de raça por modalidade escolar ser mais visualmente agradável"
+O que foi ajustado manualmente: pequenos ajustes, como títulos e outros detalhes dos gráficos.
 
 ## Fonte de Dados
-
-Fonte oficial: Resolução CD/FNDE nº 1/2026 e Censo Escolar 2024 (INEP)
-Link oficial: (https://www.gov.br/fnde/pt-br/acesso-a-informacao/legislacao/resolucoes/2026/resolucao-cd_fnde-no-1-de-18-de-fevereiro-de-2026-dou-imprensa-nacional.pdf/view)
-O que os dados representam: Esses dados representam o valor de repasse do PNAE por modalidade estudantil, vigente em 2026
-Estrutura: "Bandeja do Repasse": Valores pago por aluno, por dia, por modalidade 
-            "Tabela de Dados": Fator de variação (%), Matrículas (quantidade de alunos), Valor por Capita ($)
+Fonte oficial: Censo Escolar 2024 (INEP)
+Link oficial: https://censobasico.inep.gov.br/censobasico_2024/
+O que os dados representam: O Censo Escolar é a principal pesquisa estatística da educação básica no Brasil. O INEP coleta os dados todo ano, junto às escolas. Eles descrevem as escolas, suas modalidades de ensino, sua infraestrutura, como o esgotamento sanitário, e o perfil dos alunos, incluindo cor/raça.
+Estrutura:
+- NO_MUNICIPIO: município onde a escola fica.
+- DEPENDENCIA: ente federativo responsável pela escola.
+- NO_ENTIDADE: nome da escola.
+- [colunas de raça, esgoto e modalidade]
 
 ## Participação do Grupo
-O que aprendemos com este projeto: 
-Papel de cada integrante
-Arthur: Ajudar a upload no GitHub
-Kauã: Ajudar a upload no Github, completar excel PNAE
-Roger: Ajudar a upload no Github, completar excel PNAE
-Tomás: Ajudar a upload no Github, completar excel PNAE
-Tiago: Auxiliar a coletar dados PNAE
-João Pedro: Auxiliar a coleta de dados PNAE
+O que aprendemos com este projeto: ao trabalhar ativamente com os dados nacionais do Censo Escolar, aprendemos a manipular e interpretar dados. Também aprendemos qual a melhor forma de comunicá-los usando o Excel.
+
+Papel de cada integrante:
+- Arthur: subiu o projeto no GitHub e fez os gráficos no dashboard.
+- Kauã: ajudou no desenvolvimento da planilha.
+- Roger: ajudou nas fórmulas e nos gráficos do Excel.
+- João Pedro: ajudou na comunicação visual das informações no Excel.
+- Thiago: ajudou no desenvolvimento da planilha e do projeto, incluindo a representação visual.
+- Tomás: ajudou nas fórmulas e nos gráficos do Excel.

@@ -1,34 +1,35 @@
-# Dashboard da Educação – Censo Escolar 2024 (Excel)
+# Simulador PNAE – Grupo 5
 
-## Objetivo
-Este projeto apresenta um Dashboard da Educação feito em Excel, com base nos dados do Censo Escolar 2024. O arquivo reúne informações sobre a distribuição de raça, a quantidade e a coleta de esgoto nas escolas e as modalidades escolares. O objetivo é visualizar essas distribuições de forma dinâmica, destacando as diferenças entre elas.
+Portfólio do Grupo 5 na disciplina Análise de Dados para Pesquisas em Políticas Públicas. Este repositório reúne dois projetos, cada um na sua pasta.
 
-## Como usar
-Abra o arquivo "Projeto Excel".
+## Portfólio
 
-## Uso de Inteligência Artificial
-Ferramenta utilizada: Claude
-Para que foi usada: coletar informações e pensar em formas diferentes e adequadas de ilustrar os gráficos.
-Exemplo de prompt utilizado: "Como fazer os dados de distribuição de raça por modalidade escolar ser mais visualmente agradável"
-O que foi ajustado manualmente: pequenos ajustes, como títulos e outros detalhes dos gráficos.
+| Projeto | O que é | Pasta |
+|---|---|---|
+| Projeto 1: Simulador PNAE | Simulador em HTML do repasse do PNAE, montado a partir de uma planilha Excel | [/projeto-1-simulador-pnae](./projeto-1-simulador-pnae) |
+| Projeto 2: Dashboard da Educação | Dashboard em Excel com dados do Censo Escolar 2024 | [/projeto-2-dashboard-educacao](./projeto-2-dashboard-educacao) |
 
-## Fonte de Dados
-Fonte oficial: Censo Escolar 2024 (INEP)
-Link oficial: https://censobasico.inep.gov.br/censobasico_2024/
-O que os dados representam: O Censo Escolar é a principal pesquisa estatística da educação básica no Brasil. O INEP coleta os dados todo ano, junto às escolas. Eles descrevem as escolas, suas modalidades de ensino, sua infraestrutura, como o esgotamento sanitário, e o perfil dos alunos, incluindo cor/raça.
-Estrutura:
-- NO_MUNICIPIO: município onde a escola fica.
-- DEPENDENCIA: ente federativo responsável pela escola.
-- NO_ENTIDADE: nome da escola.
-- [colunas de raça, esgoto e modalidade]
+### Estrutura do Projeto 1
+- /projeto-1-simulador-pnae/Projeto_1_-_Simulador.xlsx: a planilha com os dados e os cálculos que deram origem ao simulador.
+- /projeto-1-simulador-pnae/simulador_pnae_v2.html: o simulador interativo (abra no navegador).
+- /projeto-1-simulador-pnae/README.md: este documento.
 
-## Participação do Grupo
-O que aprendemos com este projeto: ao trabalhar ativamente com os dados nacionais do Censo Escolar, aprendemos a manipular e interpretar dados. Também aprendemos qual a melhor forma de comunicá-los usando o Excel.
+## Projeto 1: Simulador PNAE
 
-Papel de cada integrante:
-- Arthur: subiu o projeto no GitHub e fez os gráficos no dashboard.
-- Kauã: ajudou no desenvolvimento da planilha.
-- Roger: ajudou nas fórmulas e nos gráficos do Excel.
-- João Pedro: ajudou na comunicação visual das informações no Excel.
-- Thiago: ajudou no desenvolvimento da planilha e do projeto, incluindo a representação visual.
-- Tomás: ajudou nas fórmulas e nos gráficos do Excel.
+### Objetivo
+Este projeto usa uma base de dados do bairro Quiataúna, em Osasco (SP). Ele simula o repasse do PNAE, o Programa Nacional de Alimentação Escolar, para uma escola específica. O valor muda conforme o número de alunos, a modalidade de matrícula e um fator de ajuste em porcentagem.
+
+### Como usar
+1. Abra o arquivo simulador_pnae_v2.html no navegador.
+2. Informe o número de alunos de cada modalidade.
+3. Se quiser, mude o Fator de Ajuste (%).
+4. Veja o valor do repasse calculado na tela.
+
+A planilha Projeto_1_-_Simulador.xlsx traz os dados e as fórmulas usados como base. Foi com ela que montamos o simulador em HTML.
+
+### Prints do resultado
+Imagem 1: ajustando pelo número de alunos
+<img width="951" height="562" alt="Ajuste por número de alunos" src="https://github.com/user-attachments/assets/1c6b20e8-2484-46c4-bcc0-12a83b33f161" />
+
+Imagem 2: ajustando pelo Fator de Ajuste (%)
+<img width="874" height="509" alt="Ajuste por fator de ajuste"

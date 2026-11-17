@@ -26,7 +26,8 @@ Este projeto apresenta um Dashboard da Educação feito em Excel, com base nos d
 
 ### Prints do resultado
 Imagem 1: alguns dos gráficos do dashboard
-![Gráficos do dashboard](./prints/print-graficos.png)
+<img width="1502" height="1000" alt="PHOTO-2026-11-17-15-56-53" src="https://github.com/user-attachments/assets/178ab523-57fb-47a5-8ca9-b61e695986b5" />
+
 
 ## Uso de Inteligência Artificial
 Ferramenta utilizada: Claude

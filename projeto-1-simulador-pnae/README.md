@@ -32,4 +32,4 @@ Imagem 1: ajustando pelo número de alunos
 <img width="951" height="562" alt="Ajuste por número de alunos" src="https://github.com/user-attachments/assets/1c6b20e8-2484-46c4-bcc0-12a83b33f161" />
 
 Imagem 2: ajustando pelo Fator de Ajuste (%)
-<img width="874" height="509" alt="Ajuste por fator de ajuste"
+<img width="874" height="509" alt="Ajuste por fator de ajuste" src="https://github.com/user-attachments/assets/93ee05cf-fffe-4d42-b444-740bbec27168" />

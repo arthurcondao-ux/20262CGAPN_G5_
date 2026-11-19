@@ -16,9 +16,8 @@ O painel usa dois pacotes do Python: o **pandas**, que lê e organiza a base, e 
 
 Abra o **Terminal** (no Mac: `Cmd + Espaço`, digite "Terminal" e aperte Enter; no Windows: abra o "Prompt de Comando") e digite:
 
-```
 python -m pip install pandas streamlit
-``
+
 A instalação terminou quando aparecer uma mensagem começando com `Successfully installed`.
 
 ### 3. Rodar o painel

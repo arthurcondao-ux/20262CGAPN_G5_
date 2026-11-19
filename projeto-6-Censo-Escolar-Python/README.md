@@ -42,6 +42,9 @@ Capturas de tela:
 <img width="1046" height="1148" alt="image" src="https://github.com/user-attachments/assets/f44aa9eb-1f8a-4bb2-a31b-9f84fbf6aa2f" />
 Captura 1. Filtro de localização diferenciada aberto, com a opção Todas as diferenciadas, que reúne as escolas em terras indígenas, comunidades quilombolas, comunidades tradicionais e assentamentos.
 
-<img width="1280" height="832" alt="Screenshot 2026-11-19 at 12 43 27" src="https://github.com/user-attachments/assets/7ef21429-8a75-4753-832e-3614b5723d13" />
+<img width="462" height="618" alt="Screenshot 2026-11-19 at 13 29 39" src="https://github.com/user-attachments/assets/057f77eb-650d-4dd9-be7e-57fe77ce96d5" />
+
+<img width="508" height="462" alt="Screenshot 2026-11-19 at 13 30 02" src="https://github.com/user-attachments/assets/c8dc6114-70de-4ea0-b5b3-65c9011ee687" />
+
 Captura 2. Com os filtros Baixada Santista e Terra indígena, o painel mostra as duas escolas indígenas de Bertioga, que somam 194 matrículas, são de porte pequeno e recebem 3 dos 4 serviços públicos básicos.
 

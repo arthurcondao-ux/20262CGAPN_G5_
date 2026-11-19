@@ -37,3 +37,11 @@ No topo do painel há dois filtros, que funcionam juntos:
 Ao mudar um filtro, os indicadores, os gráficos, o mapa e a lista passam a mostrar só as escolas selecionadas. No gráfico de **serviços públicos básicos**, quanto mais escolas nas barras da esquerda, pior a infraestrutura da seleção.
 
 **Sugestão:** compare *Região Metropolitana de SP* com *Vale do Ribeira* e depois escolha *Todas as diferenciadas*.
+
+Capturas de tela:
+<img width="1046" height="1148" alt="image" src="https://github.com/user-attachments/assets/f44aa9eb-1f8a-4bb2-a31b-9f84fbf6aa2f" />
+Captura 1. Filtro de localização diferenciada aberto, com a opção Todas as diferenciadas, que reúne as escolas em terras indígenas, comunidades quilombolas, comunidades tradicionais e assentamentos.
+
+<img width="1280" height="832" alt="Screenshot 2026-11-19 at 12 43 27" src="https://github.com/user-attachments/assets/7ef21429-8a75-4753-832e-3614b5723d13" />
+Captura 2. Com os filtros Baixada Santista e Terra indígena, o painel mostra as duas escolas indígenas de Bertioga, que somam 194 matrículas, são de porte pequeno e recebem 3 dos 4 serviços públicos básicos.
+
